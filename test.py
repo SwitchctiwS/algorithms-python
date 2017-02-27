@@ -1,4 +1,9 @@
-def write(arr):
-    for i in range(len(arr)):
-        print(str(arr[i]), end=" ")
-    print("\n")
+def reverse(t):
+    n = ""
+    for i in t:
+        n = i + n
+    return n
+
+arr = "qwerasdfzxcv"
+arr = reverse(arr)
+print(arr)
